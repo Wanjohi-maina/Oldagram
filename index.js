@@ -61,9 +61,9 @@ renderPosts ()
 
 // Likes Post
 
-const heartBtn = document.querySelector(".heart")
-const likesDisplay =  document.querySelector(".post-likes")
-const likesPost =  document.querySelector(".post-img")
+const heartBtn = document.querySelectorAll(".heart")
+const likesDisplay =  document.querySelectorAll(".post-likes")
+const likesPost =  document.querySelectorAll(".post-img")
 
 // Likes for our heart button
 
